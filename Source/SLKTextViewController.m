@@ -348,7 +348,7 @@ CGFloat const SLKAutoCompletionViewDefaultHeight = 140.0;
 
 - (BOOL)isPresentedInPopover
 {
-    return _presentedInPopover && SLK_IS_IPAD;
+    return _presentedInPopover;
 }
 
 - (BOOL)isTextInputbarHidden
